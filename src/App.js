@@ -4,7 +4,6 @@ import { useState } from 'react';
 
 const App = ()=>{
   const [state, setState] = useState(0);
-  const x= ()=>{}
   const onButtonClick = ()=> {
     setState(state + 1);
 

@@ -15,22 +15,27 @@
 # Tools Used
 
 ## prettier
+
 -To enforces a consistent code across the entire codebase.
 read more from: https://prettier.io/
 
 ## eslint
+
 -To allow addintion of custom rules according to the needs of the project.
 read more from: https://www.npmjs.com/package/eslint
 
 ## husky
+
 -To help manage scripts.
 read more from: https://www.npmjs.com/package/husky
 
 ## lint-staged
+
 -executing the command git commit automatically runs the linter against files staged for commit.
 read more from: https://www.npmjs.com/package/lint-staged?activeTab=readme
 
 # Git hooks
+
 -trigger actions in response to specific events, so they can help you automate your development lifecycle
 This project runs a linter and unit tests before committing to git
 

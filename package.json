@@ -18,7 +18,7 @@
     "eject": "react-scripts eject",
     "format": "prettier --write .",
     "prepare": "husky install",
-    "lint": "eslint . --ext .js,.jsx",
+    "lint": "eslint --fix",
     "storybook": "start-storybook -p 6006 -s public",
     "build-storybook": "build-storybook -s public"
   },
